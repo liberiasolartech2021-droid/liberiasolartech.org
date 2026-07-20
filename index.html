@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Liberia Solar-Tech</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/images.jpeg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <style>
+    :root {
+        --primary: #1A472A;  /* Dark Green */
+        --secondary: #77B81E;  /* Lime Green */
+        --light: #FFFFFF;
+        --dark: #1A472A;
+    }
+
+    .btn-primary {
+        background-color: var(--primary);
+        border-color: var(--primary);
+    }
+
+    .btn-secondary {
+        background-color: var(--secondary);
+        border-color: var(--secondary);
+    }
+
+    .text-primary {
+        color: var(--primary) !important;
+    }
+
+    .bg-primary {
+        background-color: var(--primary) !important;
+    }
+
+
+    .team-item {
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.team-item .team-text {
+    position: relative;
+    width: 100%;
+}
+
+.team-item .team-text div {
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.team-item .team-text .bg-light {
+    padding: 20px 25px;
+}
+
+.team-item .team-text div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.btn-square {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.btn-square:hover {
+    background: #77B81E;
+    border-color: #77B81E;
+}
+
+.team-item .team-text > div:last-child {
+    width: 100%;
+}
+
+</style>
+<style>
+    .project-item {
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    .project-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(26, 71, 42, 0.9);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+    }
+    
+    .project-item:hover .project-overlay {
+        height: 100%;
+    }
+    
+    .project-overlay .p-4 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+    }
+    </style>
+
+<style>
+.btn-primary {
+    background-color: #1A472A;
+    border-color: #1A472A;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #153D23;
+    border-color: #153D23;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #77B81E;
+    border-color: #77B81E;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #69A319;
+    border-color: #69A319;
+    color: #ffffff;
+}
+
+.btn {
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+    .bg-primary {
+        background-color: #1A472A !important;
+    }
+    
+    .contact-form .form-control {
+        border-radius: 0;
+        height: 50px;
+    }
+    
+    .contact-form textarea.form-control {
+        height: 150px;
+    }
+    
+    .contact-form .btn-primary {
+        background-color: #1A472A;
+        border-color: #1A472A;
+    }
+    
+    .contact-form .btn-primary:hover {
+        background-color: #77B81E;
+        border-color: #77B81E;
+    }
+    </style>
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+  <!-- Topbar Start -->
+<div class="container-fluid bg-light d-none d-lg-block">
+    <div class="row align-items-center top-bar">
+        <div class="col-lg-3 col-md-12 text-center text-lg-start">
+            <a href="" class="navbar-brand m-0 p-0">
+                <h1 class="text-primary m-0">Liberia Solar-Tech</h1>
+            </a>
+        </div>
+        <div class="col-lg-9 col-md-12 text-end">
+            <div class="h-100 d-inline-flex align-items-center me-4">
+                <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                <p class="m-0">SKD Community, Nagbe Town, ELWA Road, RIA Highway, Monrovia, Liberia</p>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center me-4">
+                <i class="far fa-envelope-open text-primary me-2"></i>
+                <p class="m-0">info@solartech.com</p>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center">
+                <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+
+   <!-- Navbar Start -->
+<div class="container-fluid nav-bar bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+        <!-- Logo for desktop -->
+        <a href="index.html" class="navbar-brand d-none d-lg-flex align-items-center m-0 p-0">
+            <div class="d-flex align-items-center">
+                <img src="img/images.jpeg" alt="Solar Tech Logo" class="me-2" style="width: 80px; height: auto;">
+                <div>
+                    <h2 style="color: #1A472A; margin: 0; font-size: 24px;">Liberia Solar-Tech</h2>
+                    <small style="color: #77B81E;">Renewable is Reliable</small>
+                </div>
+            </div>
+        </a>
+        
+        <!-- Logo for mobile -->
+        <a href="index.html" class="navbar-brand d-flex d-lg-none align-items-center m-0 p-0">
+            <div class="d-flex align-items-center">
+                <img src="img/images.jpeg" alt="Solar Tech Logo" class="me-2" style="width: 80px; height: auto;">
+                <div>
+                    <h2 style="color: #1A472A; margin: 0; font-size: 20px;">Liberia Solar-Tech</h2>
+                </div>
+            </div>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#services" class="nav-item nav-link">Services</a>
+            
+                <a href="#projects" class="nav-item nav-link">Projects</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 d-flex align-items-center" style="background-color: #1A472A;">
+                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                    <i class="fa fa-phone-alt" style="color: #1A472A;"></i>
+                </div>
+                <div class="ms-3">
+                    <p class="mb-1 text-white" style="font-size: 0.9rem;">Emergency 24/7</p>
+                    <h5 class="m-0 text-white">+231 887391311</h5>
+                    <h5 class="m-0 text-white">+231 777027556</h5>
+                    <h5 class="m-0 text-white">+231 886579994</h5>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Navbar End -->
+
+   <!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5"id="home">
+    <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" src="img/s1.png" alt="Solar Installation">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Solar Energy Solutions</h5>
+                            <h1 class="display-3 text-white animated slideInDown mb-4">Professional Solar Installation Services</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-2">Drive solar Photovoltaic systems into homes, offices, and businesses with clean, renewable, and reliable energy solutions that reduce your electricity bills.</p>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Services</a>
+                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" src="img/s26.jpeg" alt="Battery Storage">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Energy Storage Solutions</h5>
+                            <h1 class="display-3 text-white animated slideInDown mb-4">Advanced Inverter Systems & Installation</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-2">Experience non-stop electricity flow with our Fimer, Gel, and Flooded battery solutions. Keep your power running even during grid outages.</p>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Learn More</a>
+                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" src="img/s11.jpeg" alt="Inverter and Battery Storage Systems">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"style="background: rgba(0, 0, 0, .45);">
+                <div class="container">
+                   <div class="row justify-content-start">
+                      <div class="col-lg-8 col-md-10">
+                          <h5 class="text-white text-uppercase mb-3 animated slideInDown">Inverter & Battery Storage Solutions</h5>
+                          <h1 class="display-3 text-white animated slideInDown mb-4">Professional Inverter & Battery Installation</h1>
+                          <p class="fs-5 fw-medium text-white mb-4 pb-2">Ensure uninterrupted power with our premium Lithium, Gel, and Flooded battery systems.We provide reliable inverter installation and energy storage solutions for homes,businesses, and industrial facilities.</p>
+                          <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Learn More</a>
+                          <a href="contact.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                     </div>
+                   </div>
+                </div>
+           </div>
+        </div>
+
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" src="img/s19.jpeg" alt="Solar Installation">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Premium Full System Solutions</h5>
+                            <h1 class="display-3 text-white animated slideInDown mb-4">Full Solar Installation Services</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-2">Power your home or business with high-performance solar systems designed to deliver clean, reliable, and cost-effective energy for years to come.</p>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Services</a>
+                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Carousel End -->
+
+
+
+
+     <!-- About Start -->
+     <div class="container-xxl py-5" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <h6 class="text-secondary text-uppercase">About Us</h6>
+                    <h1 class="mb-4" style="color: #1A472A;">Liberia's Trusted Solar Energy Provider</h1>
+                    <p class="mb-4" style="color: #1A472A;">Liberia Solar-Tech Consultancy, Management & Installation, Inc. is a private sector solar installation company dedicated to providing clean, renewable, and reliable energy solutions for homes, offices, and businesses.</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Professional solar PV system installations</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Quality services at competitive prices</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Member of LEAP Network</p>
+                    <div class="bg-primary d-flex align-items-center p-4 mt-5">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
+                        </div>
+                        <div class="ms-3">
+                            <p class="fs-5 fw-medium mb-2 text-white">Emergency 24/7</p>
+                            <h3 class="m-0 text-white">+231 887391311</h3>
+                            <h5 class="m-0 text-white">+231 777027556</h5>
+                            <h5 class="m-0 text-white">+231 886579994</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img src="img/goodbye.png" class="position-absolute img-fluid w-100 h-100" style="object-fit: cover; padding: 0 0 50px 100px;" alt="Solar Installation">
+                        <img src="img/goodbye.png" class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" style="object-fit: cover;" alt="Solar Panels">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Project Start -->
+    <div class="container-xxl py-5" id="projects">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Projects</h6>
+                <h1 class="mb-5" style="color: #1A472A;">Featured Installations</h1>
+            </div>
+            <div class="row g-4">
+                
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/ss2.png" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">(25kVA) Flood battery and SMA 3-phase inverters at Government's Medical Laboratory Equipment Workshop</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/s3.png" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">(30kVA) 3-phase hybrid inverters powered by Gel Batteries at Palm Oil Production Factory</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/s28.jpeg" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">(18kVA) Lithium Battery System installed at NGO Field Station Office in the Southeast</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <! section-2>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/s7.jpeg" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">(25kVA) Advanced Battery Backup Solution with SMA 3-Phase Inverters for Government Medical Laboratory Workshop</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/s23.jpeg" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">Installation of a (25kVA) Flooded Battery Energy Storage System Integrated with SMA 3-Phase Inverters at Government Medical Laboratory Equipment Workshop</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/s10.jpeg" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">(25kVA) Professional Solar Power Installation and Battery Storage Solution for Government Laboratory Facility</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!section-3>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/s29.jpeg" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">(25kVA) Hybrid Power Backup System with Battery Storage and SMA 3-Phase Inverter Integration</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/s27.jpeg" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">Reliable (25kVA) Solar Energy Backup Solution Featuring Flood Batteries and SMA 3-Phase Inverters for Government Medical Laboratory</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/s18.jpeg" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">(25kVA) Sustainable Power Solution Delivered Through Advanced Lithium Battery Technology for NGO Facility</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <! section-4>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/s2.png" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">30kVA) Smart Lithium Energy Storage Solution Designed for Reliable NGO Facility Power Supply</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/s23.jpeg" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">(40kVA) Industrial Lithium Battery Storage System Installed to Support Critical NGO Field Services</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-item position-relative">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/s31.jpeg" alt="">
+                            <div class="project-overlay">
+                                <div class="p-4">
+                                    <p class="text-white">(60kVA) Sustainable Energy Storage System Providing Reliable Electricity for NGO Field Station</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+    
+    
+        <!--project end-->
+
+
+    <!-- Fact Start -->
+    <div class="container-fluid fact bg-dark my-5 py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 text-center">
+                    <i class="fa fa-check fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2">5+</h2>
+                    <p class="text-white mb-0">Years Experience</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2">25+</h2>
+                    <p class="text-white mb-0">Expert Technicians</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <i class="fa fa-users fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2">500+</h2>
+                    <p class="text-white mb-0">Satisfied Clients</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <i class="fa fa-solar-panel fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2">150+</h2>
+                    <p class="text-white mb-0">Complete Projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact End -->
+
+          <!-- Service Section with Larger Cards -->
+          <div class="container-fluid py-5 px-4 px-lg-0" id="services">
+            <div class="row g-0">
+                <div class="col-lg-3 d-none d-lg-flex">
+                    <div class="d-flex align-items-center justify-content-center bg-primary w-100 h-100">
+                        <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">5 Years Experience</h1>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-9">
+                    <div class="ms-lg-5 ps-lg-5">
+                        <div class="text-center text-lg-start wow fadeInUp" data-wow-delay="0.1s">
+                            <h6 class="text-secondary text-uppercase">Our Services</h6>
+                            <h1 class="mb-5" style="color: #1A472A;">Explore Our Solar Services</h1>
+                        </div>
+                        <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="bg-light p-4" style="color: #1A472A;">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-solar-panel fa-2x text-primary"></i>
+                                </div>
+                                <h4 class="mb-3" style="color: #1A472A;">Solar Installation</h4>
+                                <p>Professional installation of solar PV systems for homes and businesses</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Quality Service</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Expert Installation</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Warranty Support</p>
+                                <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            </div>
+                            <div class="bg-light p-4"style="color: #1A472A;">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-battery-full fa-2x text-primary"></i>
+                                </div>
+                                <h4 class="mb-3"style="color: #1A472A;">Energy Storage</h4>
+                                <p>Advanced battery solutions for continuous power supply</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Reliable Backup</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Long Life Batteries</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>24/7 Support</p>
+                                <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            </div>
+                            <div class="bg-light p-4" style="color: #1A472A;">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-tools fa-2x text-primary"></i>
+                                </div>
+                                <h4 class="mb-3"style="color: #1A472A;">Maintenance Service</h4>
+                                <p>Regular maintenance and repair services for optimal performance</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Regular Checkups</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Quick Response</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Professional Team</p>
+                                <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            </div>
+                            <div class="bg-light p-4" style="color: #1A472A;">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-video fa-2x text-primary"></i>
+                                </div>
+                                <h4 class="mb-3" style="color: #1A472A;">CCTV Installation</h4>
+                                <p>Professional security camera systems for residential and commercial properties</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>24/7 Monitoring</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>HD Video Quality</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Remote Access</p>
+                                <a href="" class="btn bg-white text-primary w-100 mt-2">Learn More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <div class="container-fluid my-5 px-0">
+            <div class="video wow fadeInUp" data-wow-delay="0.1s">
+                <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=5L7JN3nIyDc" data-bs-target="#videoModal">
+                    <span></span>
+                </button>
+                
+                <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: #77B81E;">Liberia Solar-Tech</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="ratio ratio-16x9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5L7JN3nIyDc?si=oQS1XvARYvP-Annq" id="video" allowfullscreen allowscriptaccess="always"
+                                        allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h1 class="text-white mb-4">Professional Solar Installation Services</h1>
+                <h3 class="text-white mb-0">Clean, Renewable & Reliable Energy Solutions</h3>
+            </div>
+        </div>
+        <!-- Video End -->
+
+
+<!-- Team Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-uppercase" style="color: #1A472A;">Our Expert Team</h6>
+            <h1 class="mb-5" style="color: #1A472A;">Solar Installation Specialists</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden" style="height: 400px;">
+                        <img class="img-fluid w-100 h-100" src="img/estaff.png" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="team-text">
+                        <div class="bg-light">
+                            <h5 class="fw-bold mb-0" style="color: #77B81E;">FREEMAN K. GODU</h5>
+                            <small>Executive Director</small>
+                        </div>
+                        <div style="background-color: #1A472A;">
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden" style="height: 400px;">
+                        <img class="img-fluid w-100 h-100" src="img/e2staff.png" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="team-text">
+                        <div class="bg-light">
+                            <h5 class="fw-bold mb-0" style="color: #77B81E;">MOMO TORKSON</h5>
+                            <small>Technical Manager</small>
+                        </div>
+                        <div style="background-color: #1A472A;">
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden" style="height: 400px;">
+                        <img class="img-fluid w-100 h-100" src="img/e11staff.jpeg" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="team-text">
+                        <div class="bg-light">
+                            <h5 class="fw-bold mb-0" style="color: #77B81E;">Joseph T. Cooper </h5>
+                            <small>Technical Assistant</small>
+                        </div>
+                        <div style="background-color: #1A472A;">
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden" style="height: 400px;">
+                        <img class="img-fluid w-100 h-100" src="img/e3staff.png" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="team-text">
+                        <div class="bg-light">
+                            <h5 class="fw-bold mb-0" style="color: #77B81E;">CHARLES N. ELLIS</h5>
+                            <small>Technical Field Supervisor</small>
+                        </div>
+                        <div style="background-color: #1A472A;">
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden" style="height: 400px;">
+                        <img class="img-fluid w-100 h-100" src="img/e5staff.png" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="team-text">
+                        <div class="bg-light">
+                            <h5 class="fw-bold mb-0" style="color: #77B81E;">FREEMAN K. GODU, JR</h5>
+                            <small>PANEL INSTALLATION SPECIALIST AND LOGISTICIAN</small>
+                        </div>
+                        <div style="background-color: #1A472A;">
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden" style="height: 400px;">
+                        <img class="img-fluid w-100 h-100" src="img/e12staff.jpeg" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="team-text">
+                        <div class="bg-light">
+                            <h5 class="fw-bold mb-0" style="color: #77B81E;">Paul-Lu S. Kamara</h5>
+                            <small>Technical IT-Specialist</small>
+                        </div>
+                        <div style="background-color: #1A472A;">
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden" style="height: 400px;">
+                        <img class="img-fluid w-100 h-100" src="img/e6staff.png" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="team-text">
+                        <div class="bg-light">
+                            <h5 class="fw-bold mb-0" style="color: #77B81E;">Robert A. Leo Jr</h5>
+                            <small>Satellite TV installation technician</small>
+                        </div>
+                        <div style="background-color: #1A472A;">
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden" style="height: 400px;">
+                        <img class="img-fluid w-100 h-100" src="img/e7.png" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="team-text">
+                        <div class="bg-light">
+                            <h5 class="fw-bold mb-0" style="color: #77B81E;">Marthaline K. Duogon </h5>
+                            <small>Solar Panel and Satellite Technician</small>
+                        </div>
+                        <div style="background-color: #1A472A;">
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden" style="height: 400px;">
+                        <img class="img-fluid w-100 h-100" src="img/e10staff.png" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="team-text">
+                        <div class="bg-light">
+                            <h5 class="fw-bold mb-0" style="color: #77B81E;">Ezekiel Vaye</h5>
+                            <small>Technical Driver</small>
+                        </div>
+                        <div style="background-color: #1A472A;">
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden" style="height: 400px;">
+                        <img class="img-fluid w-100 h-100" src="img/e8staff.png" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="team-text">
+                        <div class="bg-light">
+                            <h5 class="fw-bold mb-0" style="color: #77B81E;">EMMANUEL D. GIBSON</h5>
+                            <small>Installation Technician</small>
+                        </div>
+                        <div style="background-color: #1A472A;">
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden" style="height: 400px;">
+                        <img class="img-fluid w-100 h-100" src="img/e4staff.jpeg" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="team-text">
+                        <div class="bg-light">
+                            <h5 class="fw-bold mb-0" style="color: #77B81E;">COMFORT D. NDAPEE</h5>
+                            <small>Technician</small>
+                        </div>
+                        <div style="background-color: #1A472A;">
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+
+<style>
+.team-item .position-relative {
+    height: 400px !important;
+    width: 100%;
+}
+
+.team-item .position-relative img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-text {
+    position: relative;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+.team-text div {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+
+<!-- Testimonial Start -->
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="text-uppercase" style="color: #1A472A;">Testimonials</h6>
+            <h1 class="mb-5" style="color: #1A472A;">What Our Clients Say</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-item text-center">
+                <div class="testimonial-text bg-light text-center p-4 mb-4">
+                    <p class="mb-0">"The solar installation has significantly reduced our electricity costs. The team was professional and efficient throughout the entire process."</p>
+                </div>
+                <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="http://fakeimg.pl/400x200" style="width: 80px; height: 80px;">
+                <div class="mb-2">
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                </div>
+                <h5 class="mb-1" style="color: #77B81E;">Robert Wilson</h5>
+                <p class="m-0">Business Owner</p>
+            </div>
+            <div class="testimonial-item text-center">
+                <div class="testimonial-text bg-light text-center p-4 mb-4">
+                    <p class="mb-0">"Their battery storage solution has provided us with reliable power 24/7. Excellent service and maintenance support."</p>
+                </div>
+                <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="http://fakeimg.pl/400x200" style="width: 80px; height: 80px;">
+                <div class="mb-2">
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                </div>
+                <h5 class="mb-1" style="color: #77B81E;">Maria Thompson</h5>
+                <p class="m-0">Hotel Manager</p>
+            </div>
+            <div class="testimonial-item text-center">
+                <div class="testimonial-text bg-light text-center p-4 mb-4">
+                    <p class="mb-0">"The solar water pumping system they installed has transformed our agricultural operations. Highly recommended!"</p>
+                </div>
+                <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="http://fakeimg.pl/400x200" style="width: 80px; height: 80px;">
+                <div class="mb-2">
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                </div>
+                <h5 class="mb-1" style="color: #77B81E;">James Anderson</h5>
+                <p class="m-0">Farm Owner</p>
+            </div>
+            <div class="testimonial-item text-center">
+                <div class="testimonial-text bg-light text-center p-4 mb-4">
+                    <p class="mb-0">"Professional team with excellent technical knowledge. Their CCTV installation service was top-notch."</p>
+                </div>
+                <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="http://fakeimg.pl/400x200" style="width: 80px; height: 80px;">
+                <div class="mb-2">
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                    <small class="fa fa-star" style="color: #1A472A;"></small>
+                </div>
+                <h5 class="mb-1" style="color: #77B81E;">Patricia Lee</h5>
+                <p class="m-0">Security Manager</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+<!-- Contact Start -->
+<div class="container-xxl py-5" id="contact">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-secondary text-uppercase">Contact Us</h6>
+            <h1 class="mb-5" style="color: #1A472A;">Get In Touch</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-light p-4">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary" style="width: 50px; height: 50px;">
+                            <i class="fa fa-map text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-1" style="color: #1A472A;">Office</h5>
+                            <p class="mb-0">SKD Community, Nagbe Town, ELWA Road</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary" style="width: 50px; height: 50px;">
+                            <i class="fa fa-phone text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-1" style="color: #1A472A;">Emergency</h5>
+                            <p class="mb-0">+231 887391311</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary" style="width: 50px; height: 50px;">
+                            <i class="fa fa-envelope text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-1" style="color: #1A472A;">Email</h5>
+                            <p class="mb-0">info@solartech.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe1WxWmwLk1zr7fL-yweqZv0iKuydHQH6e9rFCls6HlryXd0g/viewform?embedded=true" 
+                    class="w-100"
+                    style="height: 600px; border-radius: 8px;"
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0">Loading...</iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Footer Start -->
+<div class="container-fluid text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: #1A472A;">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Address</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>SKD Community, Nagbe Town, ELWA Road, RIA Highway, Monrovia, Liberia</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+231 887391311</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+231 777027556</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@solartech.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Business Hours</h4>
+                <h6 class="text-light">Monday - Friday:</h6>
+                <p class="mb-4">08.00 AM - 05.00 PM</p>
+                <h6 class="text-light">Saturday:</h6>
+                <p class="mb-0">09.00 AM - 02.00 PM</p>
+                <h6 class="text-light">Sunday:</h6>
+                <p class="mb-0">Emergency Services Only</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Services</h4>
+                <a class="btn btn-link" href="">Solar Installation</a>
+                <a class="btn btn-link" href="">Energy Storage Solutions</a>
+                <a class="btn btn-link" href="">System Maintenance</a>
+                <a class="btn btn-link" href="">Solar Water Pumping</a>
+                <a class="btn btn-link" href="">CCTV Installation</a>
+                <a class="btn btn-link" href="">Technical Training</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">About Us</h4>
+                <p>Liberia Solar-Tech's mission is to create and cultivate long-term relationships with our clients and achieve complete customer satisfaction by providing affordable and reliable solar electricity for their energy needs.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <h6 class="text-light">Member of:</h6>
+                    <p>Renewable Energy Association Liberia Energy Access Practional (LEAP) Network</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Liberia Solar-Tech CMI</a>, All Rights Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed By <a class="border-bottom" href="#">E-Digital Network</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
